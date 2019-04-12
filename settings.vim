@@ -1,7 +1,5 @@
 filetype plugin on
 
-
-
 set background=dark
 colorscheme NeoSolarized
 
@@ -23,8 +21,6 @@ set autoread
 set tabstop=4
 set shiftwidth=4
 set expandtab
-
-
 
 let g:tex_flavor = "latex"
 

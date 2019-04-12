@@ -25,6 +25,4 @@ nnoremap <leader>lm :!latexmk -pdf %<enter>
 
 nnoremap <leader>ts :setlocal spell!<enter>
 
-nnoremap <leader>h :noh<enter>
-
-nnoremap <enter> <enter>:noh<enter>
+nnoremap <leader>h :nohl<enter>
