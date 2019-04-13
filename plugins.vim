@@ -15,7 +15,7 @@ call minpac#add('w0rp/ale')
 call minpac#add('tpope/vim-commentary')
 call minpac#add('junegunn/fzf.vim')
 call minpac#add('dracula/vim')
-call minpac#add('eagletmt/neco-ghc')
+" call minpac#add('eagletmt/neco-ghc')
 call minpac#add('sheerun/vim-polyglot')
 call minpac#add('icymind/NeoSolarized')
 call minpac#add('Shougo/deoplete.nvim')
@@ -59,6 +59,7 @@ call deoplete#enable()
 let g:ale_sign_column_always = 1
 let g:ale_fix_on_save = 1
 let g:ale_fixers = {'haskell': ['brittany'], '*': ['remove_trailing_lines', 'trim_whitespace']}
+let g:ale_echo_msg_format = '%linter%: %s'
 
 " Disable haskell-vim omnifunc
 let g:haskellmode_completion_ghc = 0

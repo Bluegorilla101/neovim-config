@@ -1,7 +1,8 @@
 filetype plugin on
 
 set background=dark
-colorscheme NeoSolarized
+" colorscheme NeoSolarized
+colorscheme gruvbox
 
 set spellfile=~/.vim/spell/en.utf-8.add
 
