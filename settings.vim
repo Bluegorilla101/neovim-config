@@ -9,6 +9,7 @@ set spellfile=~/.vim/spell/en.utf-8.add
 " fzf setup
 set rtp+=~/.fzf
 
+set updatetime=100
 set splitbelow
 set splitright
 set number
