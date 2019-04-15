@@ -8,7 +8,8 @@ call minpac#add('k-takata/minpac', {'type': 'opt'})
 " Add other plugins here.
 call minpac#add('ndmitchell/ghcid', {'rtp': 'plugins/nvim'})
 call minpac#add('morhetz/gruvbox')
-call minpac#add('airblade/vim-gitgutter')
+" call minpac#add('airblade/vim-gitgutter')
+call minpac#add('mhinz/vim-signify')
 call minpac#add('tpope/vim-fugitive')
 " call minpac#add('haya14busa/incsearch.vim')
 " call minpac#add('dhruvasagar/vim-prosession')
@@ -41,6 +42,8 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
+
+let g:airline_powerline_fonts = 1
 
 " incsearch
 " map /  <Plug>(incsearch-forward)
